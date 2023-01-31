@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+  <title>Gaco</title>
+</head>
+<body>
+  <header>
+    <div class="informations">
+    <p><span><i class="fa-solid fa-phone"></i></span>+20-100-703-8325</p>
+    <p><span><i class="fa-regular fa-clock"></i></span> Mon - Sat : 08:00 - 17:00</p>
+    <p><span><i class="fa-solid fa-location-dot"></i></span> 99 Park Jomblo, Pekanbaru</p>
+  </div>
+  <div class="social-icons">
+    <i class="fa-brands fa-facebook-f"></i>
+    <i class="fa-brands fa-twitter"></i>
+    <i class="fa-brands fa-instagram"></i>
+    <i class="fa-brands fa-linkedin-in"></i>
+  </div>
+  </header>
+  <nav>
+    <div>
+      <img src="images/logo.png">
+    </div>
+    <div class="Nav-center">
+        <ul class="All-Lists">
+          <li><a href="#">Home </a>
+            <ul class="Submenu1">
+              <li>Home Version 1</li>
+              <li>Home Version 2</li>
+            </ul>
+          </li>
+        </ul>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Pages</a>
+        <ul class="Submenu2">
+          <li>Gallery</li>
+          <li>Testimonials</li>
+          <li>FAQ</li>
+          <li>404 Error</li>
+        </ul>
+        </li>
+        <li><a href="#">Contact US</a></li>
+    </div>
+    <div class="right-nav">
+      <a href="#" class="get">Get Free Quote</a>
+      <p><i onclick="openSidebar()" class="fa-solid fa-bars"></i></p>
+      <div id="nav-menu">
+        <p class="CLose-Entity" onclick="CloseMenuBar()">&#10005;</p>
+          <ul>
+            <li><a href="#" id="home" onclick="downNav()" ondblclick="closeNav()">Home <span>&#9660;</span></a>
+            <ul id="submenu-hamburgar" style="display: none; margin: 0; padding: 0;">
+              <li><a href="#">Home Version 1</a></li>
+              <li><a href="#">Home Version 2</a></li>
+            </ul>
+            </li>
+            <li><a href="#">About US</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#" id="Pages" onclick="downNav1()" ondblclick="closeNav1()">Pages <span>&#9660;</span></a>
+              <ul id="submenu-hamburgar2" style="display: none;">
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Testimonials</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">404 Error</a></li>
+              </ul></li>
+            <li><a href="#">Contact US</a></li>
+          </ul>
+      </div>
+    </div>
+  </nav>
+      <section>
+        <div class="center-section">
+          <p>The Best Landscaping in Pekanbaru</p>
+          <h1>We Are Gaco Landscaping</h1>
+          <h4>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia, repellendus.</h4>
+          <div class="How">
+            <a href="#" class="More">More About US</a>
+            <a href="#" class="Hire-US">Hire US Now</a>
+          </div>
+        </div>
+      </section>
+      <main>
+        <div class="main-top">
+          <p>Why Choose Us?</p>
+          <img src="images/decor.png">
+          <h4>Every case is very important to us and we always take care of them seriously.</h4>
+        </div>
+        <div class="main-bottom">
+          <div>
+            <i class="fa fa-globe"></i>
+            <h3>The Best in Pekanbaru</h3>
+            <h4>Dolor sit amet dolor gravida placerat liberolorem ipsum dolor consectetur adipiscing elit, sed do eiusmod.</h4>
+          </div>
+          <div>
+            <i class="fa fa-certificate"></i>
+            <h3>Certified Expert</h3>
+            <h4>Dolor sit amet dolor gravida placerat liberolorem ipsum dolor consectetur adipiscing elit, sed do eiusmod.</h4>
+          </div>
+          <div>
+            <i class="fa fa-thumbs-up"></i>
+            <h3>Affordabel Pricing</h3>
+            <h4>Dolor sit amet dolor gravida placerat liberolorem ipsum dolor consectetur adipiscing elit, sed do eiusmod.</h4>
+          </div>
+          <div>
+            <i class="fa fa-star"></i>
+            <h3>High Quality Services</h3>
+            <h4>Dolor sit amet dolor gravida placerat liberolorem ipsum dolor consectetur adipiscing elit, sed do eiusmod.</h4>
+          </div>
+        </div>
+      </main>
+      <figure>
+        <div>
+          <h1>Have Problem with your Gardening?</h1>
+          <h4>Sed orci dolor, pulvinar nec luctus a, malesuada ac nisl. Aliquam eleifend et dui et suscipit. Nam semper accumsan ante, ac dapibus urna dapibus et.</h4>
+          <br>
+          <br>
+          <a href="#Contact">Contact US</a>
+        </div>
+        <div>
+          <img src="images/worker3.png">
+        </div>
+      </figure>
+      <summary>
+        <div class="Top-Summary">
+          <h1>Our Services</h1>
+          <img src="images/decor.png">
+          <h4>Every case is very important to us and we always take care of them seriously.</h4>
+        </div>
+        <div class="All-Services">
+          <div>
+            <div class="BOX">
+            <div class="Container">
+          </div>
+        </div>
+            <h2>Landscape Design</h2>
+            <h4>Dolor sit amet dolor gravida placerat liberolorem ipsum dolor consectetur adipiscing elit, sed do eiusmod.</h4>
+          </div>
+          <div>
+            <div class="BOX2">
+            <div class="Container2">
+          </div>
+        </div>
+            <h2>Planting & Removal</h2>
+            <h4>Dolor sit amet dolor gravida placerat liberolorem ipsum dolor consectetur adipiscing elit, sed do eiusmod.</h4>
+          </div>
+          <div>
+            <div class="BOX3">
+            <div class="Container3">
+            </div>
+          </div>
+            <h2>Garden Care</h2>
+            <h4>Dolor sit amet dolor gravida placerat liberolorem ipsum dolor consectetur adipiscing elit, sed do eiusmod.</h4>
+          </div>
+        </div>
+      </summary>
+      <footer>
+        <div class="Footer-Top">
+          <h1>Recent Project</h1>
+          <img src="images/decor.png">
+          <h4>Start growing with Gaco Html Template</h4>
+        </div>
+        <div class="All-Gallaries">
+          <div>
+          <div class="gallery1-Container">
+            <div class="gallery1-BOX"></div>
+          </div>
+        </div>
+        <div>
+          <div class="gallery2-Container">
+            <div class="gallery2-BOX"></div>
+          </div>
+        </div>
+        <div>
+          <div class="gallery3-Container">
+            <div class="gallery3-BOX"></div>
+          </div>
+        </div>
+        <div>
+          <div class="gallery4-Container">
+            <div class="gallery4-BOX"></div>
+          </div>
+        </div>
+        </div>
+        <p>Copyright 2019 © Gaco Html Template. Designed by Rometheme.</p>
+      </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="main.js"></script>
+</body>
+</html>
